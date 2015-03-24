@@ -1,6 +1,9 @@
 # <a href="http://kkvamsi.github.io/Interactive-resume/">Interactive-resume<br/></a><br/>
 
-<b> Create a resume very quickly in different formats</b> <br/>
+<b>Technologies: </b><br/>
+-JS<br/>
+-jQuery<br/>
+-CSS Library<br/>
   
  <b>Basic Structural schema :</b><br/>
  <br/>
