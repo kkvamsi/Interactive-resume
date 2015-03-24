@@ -1,36 +1,36 @@
-# Interactive-resume
- create a resume very quickly in different formats 
- 
- Basic Structural schema :
- 
- The initital plan to consider four sections for this page:
-
-Section #1
- Postion: Section of the page where one can select
- Contains:
-  -The preferred format 
-  -colour scchema
-  -Intergration options (gdrive,sky drive,send mail by loggin in using OAuth etc.)
-
-Section #2
-Postion:Bottom left part of the page:
-Contains:
- -Contains fields where information is updated into the text fields available.
- -The fields appear dynamically based on the selected field from the various options available in section #3
-
-Section #3
+# Interactive-resume<br/>
+ create a resume very quickly in different formats <br/>
+  <a href="http://kkvamsi.github.io/Interactive-resume/"><b>Project Site</b></a><br/>
+ <b>Basic Structural schema :</b><br/>
+ <br/>
+ <u>The initital plan to consider four sections for this page:</u><br/>
+<br/>
+<b>Section #1</b><br/>
+ Postion: Section of the page where one can select<br/>
+ Contains:<br/>
+  -The preferred format <br/>
+  -colour scchema<br/>
+  -Intergration options (gdrive,sky drive,send mail by loggin in using OAuth etc.)<br/>
+<br/>
+<b>Section #2</b>
+Postion:Bottom left part of the page:<br/>
+Contains:<br/>
+ -Contains fields where information is updated into the text fields available.<br/>
+ -The fields appear dynamically based on the selected field from the various options available in section #3<br/>
+<br/>
+<b>Section #3</b><br/>
 Postion:Mid bottom section of the page between section #2 and section #4
 Contains:
 Various options for which the data can be updated:
- -Personal details
- -Academic
- -Work experience
- -Projects undertaken
- -ETC.
- -Custom fields.
-
-Section #4
-Postion:Right bottom section of the page.
-Contains:
--Real-time preview of the updated fields so that user can know how the final resume can look like.
+ -Personal details<br/>
+ -Academic<br/>
+ -Work experience<br/>
+ -Projects undertaken<br/>
+ -ETC.<br/>
+ -Custom fields.<br/>
+<br/>
+<b>Section #4</b><br/>
+Postion:Right bottom section of the page.<br/>
+Contains:<br/>
+-Real-time preview of the updated fields so that user can know how the final resume can look like.<br/>
 
