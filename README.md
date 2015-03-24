@@ -1,11 +1,11 @@
 # <a href="http://kkvamsi.github.io/Interactive-resume/">Interactive-resume<br/></a><br/>
 
-<b>Technologies: </b><br/>
--JS<br/>
+<b><u>Technologies: </u></b><br/>
+-JavaScript<br/>
 -jQuery<br/>
 -CSS Library<br/>
   
- <b>Basic Structural schema :</b><br/>
+ <b><u>Basic Structural schema :</u></b><br/>
  <br/>
  <u>The initial plan is to consider four sections for this page:</u><br/>
 <br/>
