@@ -1,9 +1,9 @@
 # Interactive-resume<br/>
- create a resume very quickly in different formats <br/>
+<b> Create a resume very quickly in different formats</b> <br/>
   <a href="http://kkvamsi.github.io/Interactive-resume/"><b>Project Site</b></a><br/>
  <b>Basic Structural schema :</b><br/>
  <br/>
- <u>The initital plan to consider four sections for this page:</u><br/>
+ <u>The initial plan is to consider four sections for this page:</u><br/>
 <br/>
 <b>Section #1</b><br/>
  Postion: Section of the page where one can select<br/>
@@ -12,16 +12,16 @@
   -colour scchema<br/>
   -Intergration options (gdrive,sky drive,send mail by loggin in using OAuth etc.)<br/>
 <br/>
-<b>Section #2</b>
+<b>Section #2</b><br/>
 Postion:Bottom left part of the page:<br/>
 Contains:<br/>
  -Contains fields where information is updated into the text fields available.<br/>
  -The fields appear dynamically based on the selected field from the various options available in section #3<br/>
 <br/>
 <b>Section #3</b><br/>
-Postion:Mid bottom section of the page between section #2 and section #4
-Contains:
-Various options for which the data can be updated:
+Postion:Mid bottom section of the page between section #2 and section #4<br/>
+Contains:<br/>
+Various options for which the data can be updated:<br/>
  -Personal details<br/>
  -Academic<br/>
  -Work experience<br/>
