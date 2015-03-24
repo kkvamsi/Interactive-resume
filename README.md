@@ -27,10 +27,12 @@ Postion:Mid bottom section of the page between section #2 and section #4<br/>
 Contains:<br/>
 Various options for which the data can be updated:<br/>
  -Personal details<br/>
- -Academic<br/>
  -Work experience<br/>
- -Projects undertaken<br/>
- -ETC.<br/>
+ -Academic<br/>
+ -technical stack<br/>
+ -projects under taken<br/>
+ -Certifications and awards<br/>
+ -Areas of interest<br/>
  -Custom fields.<br/>
 <br/>
 <b>Section #4</b><br/>
