@@ -1,6 +1,7 @@
-# Interactive-resume<br/>
+# <a href="http://kkvamsi.github.io/Interactive-resume/">Interactive-resume<br/></a><br/>
+
 <b> Create a resume very quickly in different formats</b> <br/>
-  <a href="http://kkvamsi.github.io/Interactive-resume/"><b>Project Site</b></a><br/>
+  
  <b>Basic Structural schema :</b><br/>
  <br/>
  <u>The initial plan is to consider four sections for this page:</u><br/>
