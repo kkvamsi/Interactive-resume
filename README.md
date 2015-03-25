@@ -5,7 +5,7 @@
 -jQuery<br/>
 -CSS Library<br/>
   
- <b >Basic Structural schema :</b><br/>
+ <b >Basic Structural schema:</b><br/>
  <br/>
  <u>The initial plan is to consider four sections for this page:</u><br/>
 <br/>
