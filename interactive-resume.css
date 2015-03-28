@@ -1,19 +1,27 @@
+.div-options
+{
+  background-color:brown;
+}
+
 .top-pane
 {
-
+background-color:blue;
 }
 
 .left-pane
 {
+background-color:black;
 
 }
 
 .mid-pane
 {
+background-color:orange;
 
 }
 
 .right-pane
 {
-  
+  background-color:yellow;
+
 }

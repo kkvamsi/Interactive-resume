@@ -1,2 +1,9 @@
-// Adding a comment -- Harsha
-//vamsi commented
+$(document).ready(function(){
+$('.abc').click(
+  function()
+{
+  alert('print');
+  }
+  );
+
+});
