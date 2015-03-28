@@ -5,6 +5,8 @@
 -jQuery<br/>
 -CSS Library<br/>
   
+  <b> The reference structure for the resume is taken from  : <b> <a href="http://www.careercup.com/images/resume_careercup_markedup.gif">Link</a><br/>
+  
  <b >Basic Structural schema:</b><br/>
  <br/>
  <u>The initial plan is to consider four sections for this page:</u><br/>
