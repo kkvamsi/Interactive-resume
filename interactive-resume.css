@@ -1,27 +1,44 @@
+div{
+height:100px;
+width:100px;
+}
 .div-options
 {
+  height:20%;
+  width:100%;
   background-color:brown;
 }
 
 .top-pane
 {
+
+height:30%;
+width:100%;
 background-color:blue;
 }
 
 .left-pane
 {
+  float:left;
+  height:50%;
+  width:40%;
 background-color:black;
 
 }
 
 .mid-pane
 {
+  height:50%;
+  
 background-color:orange;
 
 }
 
 .right-pane
 {
+  float:right;
+  height:50%;
+  width:40%;
   background-color:yellow;
 
 }
