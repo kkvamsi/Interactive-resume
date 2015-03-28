@@ -1,6 +1,7 @@
 # <a href="http://kkvamsi.github.io/Interactive-resume/">Interactive-resume<br/></a><br/>
 
 <b><u>Technologies: </u></b><br/>
+-HTML<br/>
 -JavaScript<br/>
 -jQuery<br/>
 -CSS Library<br/>
