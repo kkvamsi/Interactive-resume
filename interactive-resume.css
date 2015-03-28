@@ -2,35 +2,15 @@
 float:none;
 }
 
-div{
-height:100px;
-width:100px;
+.left-div,.right-div{
+border:1px solid #000;
+width:48%;
+margin-left:1%;
+float:left;
+height:200px;
 }
 
-.div-options
-{
-  background-color:brown;
-}
-
-.top-pane
-{
-background-color:red;
-}
-
-.left-pane
-{
-background-color:black;
-
-}
-
-.mid-pane
-{
-background-color:orange;
-
-}
-
-.right-pane
-{
-  background-color:yellow;
-
+.right-div div{
+text-align:center;
+margin:0 auto;
 }
