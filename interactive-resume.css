@@ -1,7 +1,18 @@
+<<<<<<< HEAD
+=======
+.clear{
+float:none;
+}
+
+>>>>>>> d609c84d43d0bc871b0f8cfa4bdcb0774c8dc259
 div{
 height:100px;
 width:100px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d609c84d43d0bc871b0f8cfa4bdcb0774c8dc259
 .div-options
 {
   height:20%;
@@ -11,10 +22,14 @@ width:100px;
 
 .top-pane
 {
+<<<<<<< HEAD
 
 height:30%;
 width:100%;
 background-color:blue;
+=======
+background-color:red;
+>>>>>>> d609c84d43d0bc871b0f8cfa4bdcb0774c8dc259
 }
 
 .left-pane
