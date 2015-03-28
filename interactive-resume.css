@@ -1,3 +1,8 @@
+div{
+height:100px;
+width:100px;
+}
+
 .div-options
 {
   background-color:brown;
@@ -5,7 +10,7 @@
 
 .top-pane
 {
-background-color:blue;
+background-color:red;
 }
 
 .left-pane
