@@ -1,13 +1,11 @@
-$(document).ready(function(){
+function personalDetails(){
+	$('.left-div').html($('.personal-details'));
+}
 
-$('.submit').click(function(){
-	$('.right-div .fname').html($('.left-div .fname').val());
-	$('.right-div .lname').html($('.left-div .lname').val());
-	$('.right-div .contact').html($('.left-div .contact').val());
-	$('.right-div .email').html($('.left-div .email').val());
-});
+function academicDetails(){
+	$('.left-div').html($('.academic-details'));
+}
 
-});
 
 function keyPress()
     {
@@ -33,5 +31,29 @@ function keyPress()
 		}
 		else{
 		$("#remail").text("");
+		}
+		
+		if($("#10th").val().length>0){
+		var details10 = "Also you can send a mail to " + $("#10th").val();
+		$("#r10th").text(details10);
+		}
+		else{
+		$("#r10th").text("");
+		}
+		
+		if($("#12th").val().length>0){
+		var details12 = "Also you can send a mail to " + $("#12th").val();
+		$("#r12th").text(details12);
+		}
+		else{
+		$("#r12th").text("");
+		}
+		
+		if($("#btech").val().length>0){
+		var detailsbtech = "Also you can send a mail to " + $("#btech").val();
+		$("#rbtech").text(detailsbtech);
+		}
+		else{
+		$("#rbtech").text("");
 		}
     }
