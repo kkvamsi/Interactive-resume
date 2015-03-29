@@ -2,36 +2,41 @@
 float:none;
 }
 
-.left-div,.right-div{
-border:1px solid #000;
-width:43%;
-height:65%;
-margin-left:1%;
-float:left;
+.left-div{
 
+  border:1px solid #000;
+  width:44%;
+  height:65%;
+  margin-left:1%;
+  float:left;
+}
+
+.right-div{
+border:1px solid #000;
+width:48%;
+height:100%;
+margin-left:1%;
+float:right;
 }
 
 .options-div{
   border:1px solid #000;
-  width:98%;
-  height:20%;
+  width:49%;
+  height:25%;
   margin-left:1%;
   float:left;
 }
 .mid-div{
   border:1px solid #000;
-  width:7%;
+  width:4%;
   height:65%;
   margin-left:1%;
   float:left;
-
 }
   .head-div{
     border:1px solid #000;
-    width:98%;
+    width:49%;
     height:10%;
     margin-left:1%;
     float:left;
-
-
   }

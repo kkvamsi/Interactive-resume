@@ -16,7 +16,7 @@ function keyPress()
 		$("#rname").text(fullName);
 		}
 		else{
-		$("#rname").text("");	
+		$("#rname").text("");
 		}
 
 		if($("#contact").val().length>0){
@@ -24,7 +24,7 @@ function keyPress()
 		$("#rcontact").text(contactNum);
 		}
 		else{
-		$("#rcontact").text("");	
+		$("#rcontact").text("");
 		}
 
 		if($("#email").val().length>0){
@@ -32,6 +32,6 @@ function keyPress()
 		$("#remail").text(emailAdd);
 		}
 		else{
-		$("#remail").text("");	
+		$("#remail").text("");
 		}
     }
