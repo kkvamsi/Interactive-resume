@@ -1,5 +1,7 @@
 # <a href="http://kkvamsi.github.io/Interactive-resume/">Interactive-resume<br/></a><br/>
 
+[![Join the chat at https://gitter.im/kkvamsi/Interactive-resume](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kkvamsi/Interactive-resume?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 <b><u>Technologies: </u></b><br/>
 -HTML<br/>
 -JavaScript<br/>
