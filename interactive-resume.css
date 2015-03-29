@@ -1,74 +1,14 @@
-<<<<<<< HEAD
-=======
 .clear{
 float:none;
 }
 
-<<<<<<< HEAD
 .left-div,.right-div{
 border:1px solid #000;
 width:48%;
 margin-left:1%;
 float:left;
 height:200px;
-=======
->>>>>>> d609c84d43d0bc871b0f8cfa4bdcb0774c8dc259
-div{
-height:100px;
-width:100px;
->>>>>>> ed01a6c9b39af3d683d00f6b017fbc384f8519a9
-}
-<<<<<<< HEAD
-=======
 
-<<<<<<< HEAD
-.right-div div{
-text-align:center;
-margin:0 auto;
-=======
->>>>>>> d609c84d43d0bc871b0f8cfa4bdcb0774c8dc259
-.div-options
-{
-  height:20%;
-  width:100%;
-  background-color:brown;
-}
 
-.top-pane
-{
-<<<<<<< HEAD
 
-height:30%;
-width:100%;
-background-color:blue;
-=======
-background-color:red;
->>>>>>> d609c84d43d0bc871b0f8cfa4bdcb0774c8dc259
-}
 
-.left-pane
-{
-  float:left;
-  height:50%;
-  width:40%;
-background-color:black;
-
-}
-
-.mid-pane
-{
-  height:50%;
-  
-background-color:orange;
-
-}
-
-.right-pane
-{
-  float:right;
-  height:50%;
-  width:40%;
-  background-color:yellow;
-
->>>>>>> ed01a6c9b39af3d683d00f6b017fbc384f8519a9
-}
