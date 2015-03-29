@@ -8,3 +8,16 @@ $('.submit').click(function(){
 });
 
 });
+
+function keyPress()
+    {
+            
+        var fullName = "My name is " + $("#fname").val() + " " + $("#lname").val();
+		$("#rname").text(fullName);
+
+		var contactNum = "I am reachable at " + $("#contact").val();
+		$("#rcontact").text(contactNum);
+		
+		var emailAdd = "Also you can send a mail to " + $("#email").val();
+		$("#remail").text(emailAdd);
+    }
