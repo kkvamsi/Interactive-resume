@@ -4,10 +4,34 @@ float:none;
 
 .left-div,.right-div{
 border:1px solid #000;
-width:48%;
+width:43%;
+height:65%;
 margin-left:1%;
 float:left;
-height:200px;
+
 }
 
+.options-div{
+  border:1px solid #000;
+  width:98%;
+  height:20%;
+  margin-left:1%;
+  float:left;
+}
+.mid-div{
+  border:1px solid #000;
+  width:7%;
+  height:65%;
+  margin-left:1%;
+  float:left;
 
+}
+  .head-div{
+    border:1px solid #000;
+    width:98%;
+    height:10%;
+    margin-left:1%;
+    float:left;
+
+
+  }
