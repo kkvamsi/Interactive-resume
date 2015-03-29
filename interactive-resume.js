@@ -15,14 +15,23 @@ function keyPress()
         var fullName = "My name is " + $("#fname").val() + " " + $("#lname").val();
 		$("#rname").text(fullName);
 		}
+		else{
+		$("#rname").text("");	
+		}
 
 		if($("#contact").val().length>0){
 		var contactNum = "I am reachable at " + $("#contact").val();
 		$("#rcontact").text(contactNum);
 		}
+		else{
+		$("#rcontact").text("");	
+		}
 
 		if($("#email").val().length>0){
 		var emailAdd = "Also you can send a mail to " + $("#email").val();
 		$("#remail").text(emailAdd);
+		}
+		else{
+		$("#remail").text("");	
 		}
     }
