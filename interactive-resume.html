@@ -13,46 +13,46 @@
 
 	<div>
 	
-		<div class="head-div">
+		<div class="head-div ">
 		</div>
 
 		<div class="right-div">
-			<div id="rname"></div>
-			<div id="rcontact"></div>
-			<div id="remail"></div>
-			<div id="r10th"></div>
-			<div id="r12th"></div>
-			<div id="rbtech"></div>
+			<div class="hidden">First Name : <span class="fname"></span></div>
+			<div class="hidden">Last Name : <span class="lname"></span></div>
+			<div class="hidden">Contact Number : <span class="contact"></span></div>
+			<div class="hidden">Email : <span class="email"></span></div>
+			<div class="hidden">10th : <span class="tenth"></span></div>
+			<div class="hidden">12th : <span class="twelfth"></span></div>
+			<div class="hidden">Btech : <span class="btech"></span></div>
 		</div>
 
 		<div class="options-div">
 		</div>
 
 		<div class="left-div">
+			<div class="personal-details details-form">
+				<div>First Name : </div><input id="fname" class="typeClick" type="text" name="fname"><br/>
+				<div>Last Name : </div><input id="lname" class="typeClick" type="text" name="lname"><br/>
+				<div>Contact Number : </div><input id="contact" class="typeClick" type="text" name="contact"><br/>
+				<div>Email : </div><input id="email" class="typeClick" type="text" name="email"><br/>
+			</div>
 			
+			<div class="academic-details details-form hidden">
+				<div>10th percentage : </div><input id="tenth" class="typeClick" type="text" name="10th"><br/>
+				<div>12th percentage : </div><input id="twelfth" class="typeClick" type="text" name="12th"><br/>
+				<div>B.Tech percentage : </div><input id="btech" class="typeClick" type="text" name="btech"><br/>
+			</div>
 		</div>
 		
 		<div class="mid-div">
-			<button type="button" id="pbut" onclick="personalDetails()">Personal Details</button>
-			<button type="button" id="abut" onclick="academicDetails()">Academic Details</button>
-			<button type="button" id="wbut">Work Details</button>
-			<button type="button" id="tbut">Technical Details</button>
+			<button type="button" id="personal-details">Personal Details</button>
+			<button type="button" id="academic-details">Academic Details</button>
+			<button type="button" id="work-details">Work Details</button>
+			<button type="button" id="technical-details">Technical Details</button>
 		</div>
 
 		<div class="clear"></div>
 		
-		<div class="personal-details">
-			First Name : <input id="fname" type="text" name="fname" onKeyPress="keyPress()" onKeyUp="keyPress()"><br/>
-			Last Name : <input id="lname" type="text" name="lname" onKeyPress="keyPress()" onKeyUp="keyPress()"><br/>
-			Contact Number : <input id="contact" type="text" name="contact" onKeyPress="keyPress()" onKeyUp="keyPress()"><br/>
-			Email : <input id="email" type="text" name="email" onKeyPress="keyPress()" onKeyUp="keyPress()"><br/>
-		</div>
-		
-		<div class="academic-details">
-			10th percentage : <input id="10th" type="text" name="10th" onKeyPress="keyPress()" onKeyUp="keyPress()"><br/>
-			12th percentage : <input id="12th" type="text" name="12th" onKeyPress="keyPress()" onKeyUp="keyPress()"><br/>
-			B.Tech percentage : <input id="btech" type="text" name="btech" onKeyPress="keyPress()" onKeyUp="keyPress()"><br/>
-		</div>
 		
 	</div>
 

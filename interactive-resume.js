@@ -1,13 +1,38 @@
+$(document).ready(function(){
+	
+	$(".mid-div button").click(function(){
+		$('.left-div').find('.details-form').hide();
+		$('.left-div').find('.'+$(this).attr('id')).show();
+	});
+
+	$(".typeClick").keyup(function(){
+		 console.log($(this).val());
+		if($(this).val()==""){
+			$('.right-div').find('.'+$(this).attr('id')).parent().hide();
+		}
+		else{
+			$('.right-div').find('.'+$(this).attr('id')).parent().show();
+			$('.right-div').find('.'+$(this).attr('id')).html($(this).val());
+		}
+	});
+})
+
+/*$(document).ready(function(){
 function personalDetails(){
 	$('.left-div').html($('.personal-details'));
 }
 
 function academicDetails(){
+}
 	$('.left-div').html($('.academic-details'));
+
+function keyPress(){
+	console.log($(this).html());
 }
 
+//})
 
-function keyPress()
+/*function keyPress()
     {
         if(($("#fname").val().length + $("#lname").val().length)>0){
         var fullName = "My name is " + $("#fname").val() + " " + $("#lname").val();
@@ -57,3 +82,4 @@ function keyPress()
 		$("#rbtech").text("");
 		}
     }
+*/

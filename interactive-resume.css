@@ -2,6 +2,16 @@
 float:none;
 }
 
+.hidden{
+display:none;
+}
+
+.details-form div {
+display: inline-block;
+width: 25%;
+margin: 10px 22px;
+}
+
 .left-div{
 
   border:1px solid #000;
