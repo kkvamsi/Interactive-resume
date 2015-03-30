@@ -28,7 +28,7 @@ Contains:<br/>
 <b>Section #3</b><br/>
 Postion:Mid bottom section of the page between section #2 and section #4<br/>
 Contains:<br/>
-Various options for which the data can be updated:<br/>
+Various options for which the data can be updated are:<br/>
  -Personal details<br/>
  -Work experience<br/>
  -Academic<br/>
