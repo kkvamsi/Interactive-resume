@@ -4,9 +4,10 @@ $(document).ready(function(){
 		$('.left-div').find('.details-form').hide();
 		$('.left-div').find('.'+$(this).attr('id')).show();
 	});
+	
+	
 
 	$(".typeClick").keyup(function(){
-		 console.log($(this).val());
 		if($(this).val()==""){
 			$('.right-div').find('.'+$(this).attr('id')).parent().hide();
 		}
@@ -14,6 +15,28 @@ $(document).ready(function(){
 			$('.right-div').find('.'+$(this).attr('id')).parent().show();
 			$('.right-div').find('.'+$(this).attr('id')).html($(this).val());
 		}
+	});
+	
+	$(".details-form ._input").append('<button type="button" class="_bold">B</button><button type="button" class="_italic">I</button><button type="button" class="_font">A+</button><button type="button" class="__font">A-</button>');
+	
+	$("._bold").click(function(){
+		$('.right-div').find('.'+$(this).parent().find('input').attr('id')).parent().toggleClass('bold');
+	});
+
+	$("._italic").click(function(){
+		$('.right-div').find('.'+$(this).parent().find('input').attr('id')).parent().toggleClass('italic');
+	});
+	
+	$("._font").click(function(){	
+		var fontSize=parseInt($('.right-div').find('.'+$(this).parent().find('input').attr('id')).parent().css('font-size'));
+		fontSize++;
+		$('.right-div').find('.'+$(this).parent().find('input').attr('id')).parent().css('font-size',fontSize+'px');
+	});
+
+	$(".__font").click(function(){	
+		var fontSize=parseInt($('.right-div').find('.'+$(this).parent().find('input').attr('id')).parent().css('font-size'));
+		fontSize--;
+		$('.right-div').find('.'+$(this).parent().find('input').attr('id')).parent().css('font-size',fontSize+'px');
 	});
 })
 

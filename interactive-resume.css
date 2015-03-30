@@ -2,6 +2,15 @@
 float:none;
 }
 
+.bold{
+font-weight:bold;
+}
+
+.italic{
+font-style: italic;
+}
+
+
 .hidden{
 display:none;
 }
@@ -10,6 +19,16 @@ display:none;
 display: inline-block;
 width: 25%;
 margin: 10px 22px;
+}
+
+.details-form ._input {
+width:66%;
+margin:0px;
+}
+
+.details-form ._input button{
+  width: 36px;
+  margin: 0px 6px;
 }
 
 .left-div{
