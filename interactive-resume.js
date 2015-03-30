@@ -1,12 +1,28 @@
 $(document).ready(function(){
 	
+	//Generating PDF using JSPDF.JS
+	var doc = new jsPDF();
+	var specialElementHandlers = {
+		'#editor': function (element, renderer) {
+			return true;
+		}
+	};
+
+	$('#pdf_generator').click(function () {
+		doc.fromHTML($('#content').html(), 15, 15, {
+			'width': 170,
+				'elementHandlers': specialElementHandlers
+		});
+		doc.save('sample-file.pdf');
+	});
+
+	//Showing Respective input fields on the left div
 	$(".mid-div button").click(function(){
 		$('.left-div').find('.details-form').hide();
 		$('.left-div').find('.'+$(this).attr('id')).show();
 	});
-	
-	
-
+ 
+	//Writing data to right div w.r.t left div
 	$(".typeClick").keyup(function(){
 		if($(this).val()==""){
 			$('.right-div').find('.'+$(this).attr('id')).parent().hide();
@@ -17,8 +33,10 @@ $(document).ready(function(){
 		}
 	});
 	
+	//Adding buttons for Bold/Italic/Font-size dynamically to all input fields on left div
 	$(".details-form ._input").append('<button type="button" class="_bold">B</button><button type="button" class="_italic">I</button><button type="button" class="_font">A+</button><button type="button" class="__font">A-</button>');
 	
+	//Functionality for Bold/Italic/Font-size
 	$("._bold").click(function(){
 		$('.right-div').find('.'+$(this).parent().find('input').attr('id')).parent().toggleClass('bold');
 	});
@@ -38,6 +56,7 @@ $(document).ready(function(){
 		fontSize--;
 		$('.right-div').find('.'+$(this).parent().find('input').attr('id')).parent().css('font-size',fontSize+'px');
 	});
+	
 })
 
 /*$(document).ready(function(){
